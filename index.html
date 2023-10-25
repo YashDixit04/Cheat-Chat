@@ -1,0 +1,44 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cheat-chat</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- fontshare  -->
+    <link href="https://api.fontshare.com/v2/css?f[]=stardom@400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body class="show-chatbot">
+    <button class="chatbot-toggler">
+        <span class="material-symbols-outlined">mode_comment</span>
+        <span class="material-symbols-outlined">close</span>
+    </button>
+    <div class="chatbot">
+        <header>
+            <h2>ChatBox</h2>
+            <span class="material-symbols-outlined">close</span>
+        </header>
+        <ul class="chatbox">
+            <li class="chat incoming">
+                <span class="material-symbols-outlined">robot_2</span>
+                <p>Hi there 👋 <br> How Can i help you today?</p>
+            </li>
+            <li class="chat outgoing">
+                <p>Lorem ipsum dolor sisectetur adipisicing elit.</p>
+            </li>
+        </ul>
+        <div class="chat-input">
+            <textarea placeholder="Entre a message...." required></textarea>
+            <span id="send-btn" class="material-symbols-outlined">send</span>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
