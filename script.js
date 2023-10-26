@@ -5,7 +5,7 @@ const chatbox = document.querySelector(".chatbox");
 
 let userMessage;
 // OPEN_AI API KEY 
-const API_KEY = "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";
+const API_KEY = "";
 
 const createChatLi = (message, className) => {
     const chatLi = document.createElement("li");
